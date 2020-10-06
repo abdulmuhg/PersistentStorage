@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".InternalActivity">
+
+    <Button
+        android:id="@+id/btn_buatFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/buat_file"/>
+    <Button
+        android:id="@+id/btn_ubahFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/ubah_file"/>
+    <Button
+        android:id="@+id/btn_bacaFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/baca_file"/>
+    <Button
+        android:id="@+id/btn_hapusFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/hapus_file"/>
+    <TextView
+        android:id="@+id/tv_hasilBaca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:ems="10"
+        android:textColor="@android:color/black"
+        android:text="@string/hasil_baca_file"
+        android:layout_margin="4dp" />
+</LinearLayout>
